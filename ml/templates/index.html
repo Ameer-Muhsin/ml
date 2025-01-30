@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Analysis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Sentiment Analysis</h1>
+
+        <div class="input-section">
+            <label for="text-input">Enter Text for Sentiment Analysis:</label>
+            <textarea id="text-input" rows="5" placeholder="Type a movie review..."></textarea>
+        </div>
+
+        <button id="predict-btn">Predict Sentiment</button>
+
+        <div id="result">
+            <h2>Prediction:</h2>
+            <p id="prediction-output">Please enter some text to analyze sentiment.</p>
+        </div>
+
+        <div class="image-upload">
+            <input type="file" id="image-upload" accept="image/*">
+            <button id="upload-btn">Upload Image</button>
+            <p id="image-message">No image uploaded yet.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
